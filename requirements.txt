@@ -40,6 +40,17 @@ motor==3.7.1                  # Async MongoDB driver
 beanie==1.27.0                # ODM based on Pydantic + Motor
 
 # -----------------------------
+# Qdrant Vector DB Client
+# -----------------------------
+qdrant-client==1.16.2         # Qdrant vector DB client
+
+# -----------------------------
+# HuggingFace & Local LLM/Embedding
+# -----------------------------
+transformers==4.43.0          # HuggingFace Transformers library
+sentence-transformers==5.1.0  # Local embedding model (no OpenAI API needed)
+
+# -----------------------------
 # AI / Computer Vision Models
 # -----------------------------
 ultralytics==8.3.237          # YOLOv8 & YOLO-World for object detection (AGPL license)

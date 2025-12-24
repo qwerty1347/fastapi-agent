@@ -11,3 +11,7 @@ def get_fruits_image_path() -> list[Path]:
     ]
 
     return images_path
+
+
+def get_sample_image_path() -> Path:
+    return Path(settings.IMAGE_PATH) / "apple.jpg"
